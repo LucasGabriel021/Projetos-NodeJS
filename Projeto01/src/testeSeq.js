@@ -3,9 +3,9 @@
 */
 
 const Sequelize = require("sequelize");
-const sequelize = new Sequelize("test", "root", "18213377", {
-    hots: "localhost",
-    dialect: "mysql"
+const sequelize = new Sequelize(null, "root", null, {
+    hots: null,
+    dialect: null
 });
 
 /*

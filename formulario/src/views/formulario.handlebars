@@ -1,0 +1,17 @@
+<div class="container d-flex justify-content-center align-items-center p-4">
+    <div style="width: 60%; background-color: #37353E;" class="rounded p-4">
+        <h1 class="text-white">Criar Postagem</h1>
+        <hr>
+        <form action="/envios" method="POST">
+            <div class="mb-3 mt-3">
+                <label for="titulo" class="form-label mb-1 text-white">Insira o título da postagem:</label>
+                <input type="text" class="form-control" id="titulo" placeholder="Título" name="titulo">
+            </div>
+            <div class="mb-3 mt-3">
+                <label for="conteudo" class="mb-1 text-white">Insira o conteúdo da postagem:</label>
+                <textarea class="form-control" rows="5" id="conteudo" name="conteudo" placeholder="Conteúdo"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Enviar</button>
+        </form>
+    </div>
+</div>
